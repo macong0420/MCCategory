@@ -26,6 +26,7 @@
 		44F31ACC1E55A7A000347D44 /* MCExtensionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31ABF1E55A7A000347D44 /* MCExtensionLabel.m */; };
 		44F31ACD1E55A7A000347D44 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31AC31E55A7A000347D44 /* Reachability.m */; };
 		44F31AD01E55A7CF00347D44 /* MCShadowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31ACF1E55A7CF00347D44 /* MCShadowAlertView.m */; };
+		44F31AD61E56A7FE00347D44 /* UILabel+MCAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31AD51E56A7FE00347D44 /* UILabel+MCAutoSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		44F31AC31E55A7A000347D44 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		44F31ACE1E55A7CF00347D44 /* MCShadowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCShadowAlertView.h; sourceTree = "<group>"; };
 		44F31ACF1E55A7CF00347D44 /* MCShadowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCShadowAlertView.m; sourceTree = "<group>"; };
+		44F31AD41E56A7FE00347D44 /* UILabel+MCAutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MCAutoSize.h"; sourceTree = "<group>"; };
+		44F31AD51E56A7FE00347D44 /* UILabel+MCAutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MCAutoSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				44F31AB41E55A7A000347D44 /* UIImage+Common.m */,
 				44F31AB51E55A7A000347D44 /* UIView+Sizes.h */,
 				44F31AB61E55A7A000347D44 /* UIView+Sizes.m */,
+				44F31AD41E56A7FE00347D44 /* UILabel+MCAutoSize.h */,
+				44F31AD51E56A7FE00347D44 /* UILabel+MCAutoSize.m */,
 			);
 			path = categorys;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				44F31AC41E55A7A000347D44 /* NSDate+Common.m in Sources */,
 				44F31AC71E55A7A000347D44 /* UIImage+Common.m in Sources */,
 				44F31A5C1E55A41600347D44 /* AppDelegate.m in Sources */,
+				44F31AD61E56A7FE00347D44 /* UILabel+MCAutoSize.m in Sources */,
 				44F31A591E55A41500347D44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +620,7 @@
 				44F31A831E55A41900347D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44F31A841E55A41900347D44 /* Build configuration list for PBXNativeTarget "MCCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +629,7 @@
 				44F31A861E55A41900347D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44F31A871E55A41900347D44 /* Build configuration list for PBXNativeTarget "MCCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +638,7 @@
 				44F31A891E55A41900347D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
