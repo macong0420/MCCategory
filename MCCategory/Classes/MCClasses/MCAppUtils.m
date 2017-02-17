@@ -9,6 +9,8 @@
 #import "MCAppUtils.h"
 #import "MCMacros.h"
 #import "Reachability.h"
+#import <Foundation/NSObject.h>
+
 @implementation MCAppUtils
 
 +(NSString*) getCurrntNet
@@ -62,22 +64,23 @@ static NSString * LuanchCount = @"luanchCount";
     return count ;
 }
 
-+(NSString*)urlEncode:(id<NSObject>)value
-{
-    //make sure param is a string
-    if ([value isKindOfClass:[NSNumber class]]) {
-        value = [(NSNumber*)value stringValue];
-    }
-    
-    NSAssert([value isKindOfClass:[NSString class]], @"request parameters can be only of NSString or NSNumber classes. '%@' is of class %@.", value, [value class]);
-    
-    return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
-                                                                                 NULL,
-                                                                                 (__bridge CFStringRef) value,
-                                                                                 NULL,
-                                                                                 (CFStringRef)@"!*'();:@&=+$,/?%#[]",
-                                                                                 kCFStringEncodingUTF8));
-}
+//+(NSString*)urlEncode:(id<NSObject>)value
+//{
+//    //make sure param is a string
+//    if ([value isKindOfClass:[NSNumber class]]) {
+//        value = [(NSNumber*)value stringValue];
+//    }
+//    
+//    NSAssert([value isKindOfClass:[NSString class]], @"request parameters can be only of NSString or NSNumber classes. '%@' is of class %@.", value, [value class]);
+//    
+//    return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
+//                                                                                 NULL,
+//                                                                                 (__bridge CFStringRef) value,
+//                                                                                 NULL,
+//                                                                                 (CFStringRef)@"!*'();:@&=+$,/?%#[]",
+//                                                                                 kCFStringEncodingUTF8));
+//
+//}
 
 
 

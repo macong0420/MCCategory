@@ -270,10 +270,6 @@ const CGFloat PRShadowAnimationDuration = 0.4f;
 
 - (void)closeAlertView
 {
-    if ([m_topView respondsToSelector:@selector(closeView)])
-    {
-        [m_topView performSelector:@selector(closeView)];
-    }
 
     [self  hideAlertWithCompletion:^{
     }];
@@ -296,14 +292,7 @@ const CGFloat PRShadowAnimationDuration = 0.4f;
 
 - (void)closeAlertViewWithAnimated
 {
-    if ([m_topView respondsToSelector:@selector(closeViewWithAnimated)])
-    {
-        [m_topView performSelector:@selector(closeViewWithAnimated)];
-    }
-    else
-    {
-        [self closeAlertView];
-    }
+    [self closeAlertView];
 }
 
 #pragma mark --

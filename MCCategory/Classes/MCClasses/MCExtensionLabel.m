@@ -195,10 +195,7 @@
                    NSStringDrawingUsesFontLeading
                                        attributes:attributes
                                           context:nil].size;
-    } else {
-        retSize = [self.text sizeWithFont:self.font constrainedToSize:CGSizeMake(self.width, 999)];
-    }
-    
+    }     
     CGRect dateFrame =CGRectMake(10, 10, self.width, retSize.height);
     self.frame = dateFrame;
 }

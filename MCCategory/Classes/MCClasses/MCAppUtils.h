@@ -16,6 +16,6 @@
 
 +(NSInteger)isNextAppLuanch;
 
-+(NSString*)urlEncode:(id<NSObject>)value;
+//+(NSString*)urlEncode:(id<NSObject>)value;
 
 @end

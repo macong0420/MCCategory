@@ -36,8 +36,6 @@ typedef enum
 
 + (UILabel *)labelWithFrame:(CGRect)frame title:(NSString *)title titleColor:(UIColor *)titleColor fontSize:(CGFloat)fontSize textAlignment:(NSTextAlignment)textAlignment;
 
-- (CGSize)boundingRectWithSize:(CGSize)size;
-
 - (void)textLeftTopAlign;
 
 @end
