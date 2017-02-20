@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44928A121E5ACE41006BD1CE /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 44928A111E5ACE41006BD1CE /* NSDictionary+Utils.m */; };
 		44F31A591E55A41500347D44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31A581E55A41500347D44 /* main.m */; };
 		44F31A5C1E55A41600347D44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31A5B1E55A41600347D44 /* AppDelegate.m */; };
 		44F31A5F1E55A41600347D44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F31A5E1E55A41600347D44 /* ViewController.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44928A101E5ACE41006BD1CE /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		44928A111E5ACE41006BD1CE /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
 		44F31A541E55A41500347D44 /* MCCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F31A581E55A41500347D44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44F31A5A1E55A41500347D44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				44F31AB61E55A7A000347D44 /* UIView+Sizes.m */,
 				44F31AD41E56A7FE00347D44 /* UILabel+MCAutoSize.h */,
 				44F31AD51E56A7FE00347D44 /* UILabel+MCAutoSize.m */,
+				44928A101E5ACE41006BD1CE /* NSDictionary+Utils.h */,
+				44928A111E5ACE41006BD1CE /* NSDictionary+Utils.m */,
 			);
 			path = categorys;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 			files = (
 				44F31ACD1E55A7A000347D44 /* Reachability.m in Sources */,
 				44F31AD01E55A7CF00347D44 /* MCShadowAlertView.m in Sources */,
+				44928A121E5ACE41006BD1CE /* NSDictionary+Utils.m in Sources */,
 				44F31AC61E55A7A000347D44 /* UIColor+Common.m in Sources */,
 				44F31A5F1E55A41600347D44 /* ViewController.m in Sources */,
 				44F31ACC1E55A7A000347D44 /* MCExtensionLabel.m in Sources */,
