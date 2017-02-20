@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const kEmptyString;
-
 @interface NSDictionary (Utils)
 
 // return an empty string if the value is NSNull or not a string.

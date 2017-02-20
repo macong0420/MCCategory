@@ -20,7 +20,7 @@
     
     UIButton *btn = [[UIButton alloc] init];
     btn.backgroundColor = MCColor(@"#aaaaaa", 1.0);
-    btn.frame = CGRectMake(100, 100, 100, 50);
+    btn.frame = CGRectMake(KSCALE*100, KSCALE*100, MCWidthScale(100), MCHeightScale(50));
     [btn setTitle:@"dianji" forState:UIControlStateNormal];
     [btn mc_setBackgroundColor:MCColor(@"#00bf99", 1.0) forState:UIControlStateHighlighted];
     [self.view addSubview:btn];

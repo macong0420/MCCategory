@@ -19,7 +19,7 @@
         return result;
     }
     else {
-        return kEmptyString;
+        return @"";
     }
 }
 
